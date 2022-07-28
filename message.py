@@ -41,7 +41,7 @@ cmd("clear")
 cmd("figlet Fast Message | lolcat -d 50")
 
 #-----------------------------------------------
-# Annuaire -----------------------------------------
+# Directory -----------------------------------------
 
 def cont_annu():
 	while True:
@@ -67,7 +67,7 @@ def cont_annu():
 			break
 def create_cont_annu():
 	while True:
-		annu = input(red + "Do you want make a contact page to save phone numbers ? [Y/N] : ")
+		annu = input(red + "Do you want make a Directory page to save phone numbers ? [Y/N] : ")
 		if annu == "Y":
 			cmd("mkdir contact && touch contact/contact.txt")
 			contact_ask = input("What person would you add to this page ? (persone name) --> : ")
